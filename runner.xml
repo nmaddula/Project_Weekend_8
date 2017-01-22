@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Amazon application" parallel="methods" thread-count="2">
+  <parameter name="username" value="user1"></parameter>
+  <parameter name="password" value="pwd1"></parameter>
+  <test verbose="2" name="Smoke test">
+    <classes>
+      <class name="p1.JenkinsDemo"/>
+    </classes>
+  </test> 
+</suite> 
