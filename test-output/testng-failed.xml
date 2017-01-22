@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Amazon application]" parallel="methods">
+  <parameter name="password" value="pwd1"/>
+  <parameter name="username" value="user1"/>
+  <test name="Smoke test(failed)" parallel="methods">
+    <classes>
+      <class name="p1.JenkinsDemo">
+        <methods>
+          <include name="JenkinsDemo"/>
+        </methods>
+      </class> <!-- p1.JenkinsDemo -->
+    </classes>
+  </test> <!-- Smoke test(failed) -->
+</suite> <!-- Failed suite [Amazon application] -->

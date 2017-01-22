@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon application" duration-ms="47" started-at="2017-01-22T04:57:02Z" finished-at="2017-01-22T04:57:02Z">
+    <groups>
+    </groups>
+    <test name="Smoke test" duration-ms="47" started-at="2017-01-22T04:57:02Z" finished-at="2017-01-22T04:57:02Z">
+      <class name="p1.JenkinsDemo">
+        <test-method status="FAIL" signature="JenkinsDemo()[pri:0, instance:p1.JenkinsDemo@2d6d8735]" name="JenkinsDemo" duration-ms="6" started-at="2017-01-22T10:27:02Z" finished-at="2017-01-22T10:27:02Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at p1.JenkinsDemo.JenkinsDemo(JenkinsDemo.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JenkinsDemo -->
+      </class> <!-- p1.JenkinsDemo -->
+    </test> <!-- Smoke test -->
+  </suite> <!-- Amazon application -->
+</testng-results>
